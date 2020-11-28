@@ -1,11 +1,15 @@
+$main: #fff;
+$primary: #031926;
+$accent: #468189;
+
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: red;
+  color: $primary;
 }
 
-h1 {
-  font-size: 1rem;
-  color: green;
+.container {
+  width: 90%;
+  margin: 1rem auto;
 }

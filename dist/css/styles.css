@@ -2,8 +2,43 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: red; }
+  color: #031926; }
 
-h1 {
-  font-size: 1rem;
-  color: green; }
+.container {
+  width: 90%;
+  margin: 1rem auto; }
+
+.date-card .date-header {
+  background: #468189;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px; }
+
+.date-card .card-info-container .card-info {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: dotted 1px #031926; }
+  .date-card .card-info-container .card-info img {
+    width: 100px;
+    height: auto; }
+  .date-card .card-info-container .card-info .platforms .platform-tag {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center; }
+    .date-card .card-info-container .card-info .platforms .platform-tag:not(:last-of-type) {
+      margin-bottom: 2px; }
+  .date-card .card-info-container .card-info .platforms .switch {
+    background: #e4000f;
+    color: white; }
+  .date-card .card-info-container .card-info .platforms .pc {
+    background: lightgray; }
+  .date-card .card-info-container .card-info .platforms .ps5 {
+    background: #003087;
+    color: white; }
+  .date-card .card-info-container .card-info .platforms .xsx {
+    background: #107c10;
+    color: white; }

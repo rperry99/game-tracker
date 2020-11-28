@@ -1,0 +1,48 @@
+.date-card {
+  .date-header {
+    background: $accent;
+    padding: 5px;
+    color: $main;
+    border-radius: 5px;
+  }
+  .card-info-container {
+    .card-info {
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: dotted 1px $primary;
+      img {
+        width: 100px;
+        height: auto;
+      }
+      .platforms {
+        .platform-tag {
+          border-radius: 5px;
+          padding: 5px;
+          text-align: center;
+          &:not(:last-of-type) {
+            margin-bottom: 2px;
+          }
+        }
+        .switch {
+          background: #e4000f;
+          color: white;
+        }
+        .pc {
+          background: lightgray;
+        }
+        .ps5 {
+          background: #003087;
+          color: white;
+        }
+        .xsx {
+          background: #107c10;
+          color: white;
+        }
+      }
+    }
+  }
+}
